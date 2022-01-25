@@ -1,14 +1,150 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "guests": [
+    {
+      "firstName": "asdas",
+      "lastName": "asdsa",
+      "email": "asdsa@asd.com",
+      "phoneNo": "9999999990",
+      "address1": "asda",
+      "address2": "asd",
+      "country": "",
+      "city": "asdas",
+      "state": "option1",
+      "postalCode": "213123",
+      "id": "bc0bb146-663a-4e61-aab6-2620c6bebda9"
+    },
+    {
+      "firstName": "asd",
+      "lastName": "asd",
+      "email": "asd@adad.com",
+      "phoneNo": "9999171177",
+      "address1": "hjashd",
+      "address2": "asd",
+      "country": "",
+      "city": "asd",
+      "state": "option2",
+      "postalCode": "223222",
+      "id": "0bcf7d64-35db-41ab-85f2-4d9eaa41a4bb"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "payments": [
+    {
+      "id": "f0dbf6e3-1ace-4c02-a53a-8976389c6005",
+      "guestId": "bc0bb146-663a-4e61-aab6-2620c6bebda9",
+      "paymentDate": "2022-01-28T06:30:00.000Z",
+      "mode": "2",
+      "others": "",
+      "desc": "desc",
+      "amount": 23323
+    },
+    {
+      "id": "d8465a8a-b3d1-4e57-ae30-e5c174cf9a5d",
+      "guestId": "bc0bb146-663a-4e61-aab6-2620c6bebda9",
+      "paymentDate": "2022-01-31T06:30:00.000Z",
+      "mode": "3",
+      "others": "",
+      "desc": "aasdasd",
+      "amount": 12123
+    },
+    {
+      "id": "d890a2fc-0f2f-4ca7-a38e-8216622b251d",
+      "guestId": "bc0bb146-663a-4e61-aab6-2620c6bebda9",
+      "paymentDate": "2022-01-28T06:30:00.000Z",
+      "mode": "3",
+      "others": "",
+      "desc": "asdasd",
+      "amount": 212312
+    },
+    {
+      "id": "7ae93f59-6107-43c4-8b35-48deab87b051",
+      "guestId": "bc0bb146-663a-4e61-aab6-2620c6bebda9",
+      "paymentDate": "2022-01-27T06:30:00.000Z",
+      "mode": "3",
+      "others": "",
+      "desc": "deasdads",
+      "amount": 1,
+      "paymentId": "7ae93f59-6107-43c4-8b35-48deab87b051"
+    },
+    {
+      "id": "4b032696-7012-4a4b-9f0d-0ab480dd8fa1",
+      "guestId": "0bcf7d64-35db-41ab-85f2-4d9eaa41a4bb",
+      "paymentDate": "2022-01-24T06:30:00.000Z",
+      "mode": "2",
+      "others": "",
+      "desc": "desc",
+      "amount": 1,
+      "paymentId": "4b032696-7012-4a4b-9f0d-0ab480dd8fa1"
+    },
+    {
+      "id": "63e18b35-dd94-40a4-a12a-b3370710417d",
+      "guestId": "0bcf7d64-35db-41ab-85f2-4d9eaa41a4bb",
+      "paymentDate": "2022-01-25T06:30:00.000Z",
+      "mode": "2",
+      "others": "",
+      "desc": "desasd1",
+      "amount": 2
+    },
+    {
+      "id": "e1efd6bf-d340-4480-9e1f-1af5899516a9",
+      "guestId": "0bcf7d64-35db-41ab-85f2-4d9eaa41a4bb",
+      "paymentDate": "2022-01-27T06:30:00.000Z",
+      "mode": "1",
+      "others": "",
+      "desc": "desc3",
+      "amount": 4,
+      "paymentId": "e1efd6bf-d340-4480-9e1f-1af5899516a9"
+    }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "roomTypes": [
+    {
+      "roomId": "1",
+      "roomType": "Single room",
+      "roomRate": 12
+    },
+    {
+      "roomId": "2",
+      "roomType": "Double room",
+      "roomRate": 24
+    },
+    {
+      "roomId": "3",
+      "roomType": "Triple room",
+      "roomRate": 34
+    },
+    {
+      "roomId": "4",
+      "roomType": "Quad room",
+      "roomRate": 44
+    }
+  ],
+  "checkIns": [
+    {
+      "id": "fed16452-0df6-47e8-b7c7-c2cf3df5873c",
+      "guestId": "bc0bb146-663a-4e61-aab6-2620c6bebda9",
+      "arrivalDate": "2022-01-25T06:30:00.000Z",
+      "departureDate": "2022-01-29T06:30:00.000Z",
+      "noOfAdults": 3,
+      "noOfChildren": 0,
+      "noOfRooms": 3,
+      "roomType": "2",
+      "ratePerRoom": 24,
+      "noOfNights": 4,
+      "estimatedCost": 288,
+      "isCheckedOut": true
+    },
+    {
+      "id": "dec1c036-93fb-4b1c-a030-59caec4b6072",
+      "guestId": "0bcf7d64-35db-41ab-85f2-4d9eaa41a4bb",
+      "arrivalDate": "2022-01-25T06:30:00.000Z",
+      "departureDate": "2022-01-31T06:30:00.000Z",
+      "noOfAdults": 1,
+      "noOfChildren": 0,
+      "noOfRooms": 1,
+      "roomType": "2",
+      "ratePerRoom": 24,
+      "noOfNights": 6,
+      "estimatedCost": 144,
+      "isCheckedOut": true
+    }
+  ]
 }
